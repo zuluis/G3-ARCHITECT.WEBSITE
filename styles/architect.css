@@ -1,4 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=lato:ital,wght@0,400;0,700;1;400&family=open+sans:wght@400;700;800&family=work+sans:wght@400;500;600;700;800&display=swap');
 *{
     font-family: 'work sans', sans-serif;
+    font-family: 'lato', sans-serif;
+    font-family: 'open sans', sans-serif;
+}
+header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav > ul {
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+nav li a {
+    text-decoration: none;
+    color: #424242;
+}
+.nav-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #131313;
+}
+.banner-content{
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #131313;
+}
+.banner-description{
+    color: #727272;
+}
+.btn-primary{
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 20px 25px;
+    color: #FFF;
+    font-size: 1.25rem;
+    color: #FFF;
+    cursor: pointer;
+    border: 0;
+}
+.banner img{
+    width: 100%;
+    margin-top: 20px;
 }
