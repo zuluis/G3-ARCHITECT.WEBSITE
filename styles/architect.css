@@ -161,6 +161,14 @@ main{
 .sponsors-img-container img{
     width: 165px;
 }
+.footers{
+    background: darksalmon;
+    text-align: center;
+    width: 1250px;
+    height: 40px;
+    margin-left: 30px;
+    padding: 5px;
+}
 
 
 
@@ -187,7 +195,11 @@ main{
         .ten-years-badge{
             position: static;
             max-width: 300px;
-
+        }
+        .footers{
+            width: 400px;
+            margin: 0;
+            padding: 0;
         }
         .teams-content , .facts-card-container{
             padding: 20px;
